@@ -1,4 +1,4 @@
-file_path = "/Users/hvaandres/Documents/Git/securehashencrypt/EncryptedFiles/ciphertext1.bin"
+file_path = "[File_Path]securehashencrypt/EncryptedFiles/ciphertext1.bin"
 
 try:
     with open(file_path, "rb") as file:

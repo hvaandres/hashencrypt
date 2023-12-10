@@ -36,9 +36,9 @@ def decrypt_file(ciphertext_path, public_key_path, decrypted_path):
         print("An error occurred during decryption:", str(e))
 
 # Paths
-ciphertext_path = '/Users/hvaandres/Documents/Git/securehashencrypt/EncryptedFiles/ciphertext.bin'
-public_key_path = '/Users/hvaandres/Documents/Git/securehashencrypt/PublicKey/public.pem'
-decrypted_path = '/Users/hvaandres/Documents/Git/securehashencrypt/DecryptedFiles/decrypted.txt'
+ciphertext_path = '[file_path]EncryptedFiles/ciphertext1.bin'
+public_key_path = '[file_path]PublicKey/public.pem'
+decrypted_path = '[file_path]DecryptedFiles/decrypted.txt'
 
 # Decrypt the file
 decrypt_file(ciphertext_path, public_key_path, decrypted_path)
